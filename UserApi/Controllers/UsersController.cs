@@ -34,7 +34,8 @@
             return Ok(user);
         }
 
-        // POST api/users/getmany
+        // POST api/users/getmanycomment:
+        //
         [HttpPost("getmany")]
         public IActionResult Post([FromBody] List<int> ids)
         {
